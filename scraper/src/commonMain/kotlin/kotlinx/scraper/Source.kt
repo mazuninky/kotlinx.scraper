@@ -1,4 +1,4 @@
-package kotlinx.scrapper
+package kotlinx.scraper
 
 sealed class Source
 

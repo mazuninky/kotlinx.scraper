@@ -1,5 +1,5 @@
 enableFeaturePreview("GRADLE_METADATA")
 
-rootProject.name = "kotlinx.scrapper"
+rootProject.name = "kotlinx.scraper"
 
-include("scrapper")
+include("scraper")

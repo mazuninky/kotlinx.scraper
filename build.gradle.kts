@@ -1,5 +1,5 @@
 val versionName by extra { "1.0.0-alpha1" }
-val groupId by extra { "kotlinx.scrapper" }
+val groupId by extra { "kotlinx.scraper" }
 
 //fun setupMultiplatformLibrary(project: Project) = project.apply {
 //    plugins {
