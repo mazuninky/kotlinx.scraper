@@ -3,6 +3,13 @@ plugins {
 }
 
 kotlin {
+    jvm {
+        val main by compilations.getting {
+            kotlinOptions {
+                jvmTarget = "1.8"
+            }
+        }
+    }
     sourceSets {
         val commonMain by getting {
             dependencies {
@@ -10,8 +17,10 @@ kotlin {
             }
         }
 
-        jvm {
-
+        val jvmMain by getting {
+            dependencies {
+                implementation(kotlin("stdlib-jdk8"))
+            }
         }
     }
 }
